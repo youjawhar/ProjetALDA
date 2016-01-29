@@ -1,0 +1,1093 @@
+13:35:22,434 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011403: Stopping Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+13:35:26,198 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015877: Stopped deployment AnnonceEjb.jar in 5562ms
+13:35:26,627 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment annonceWeb.war in 5999ms
+13:35:26,667 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment ear.ear in 6334ms
+13:35:26,707 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015876: Starting deployment of "ear.ear"
+13:35:44,934 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:44,934 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:44,934 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:44,934 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:44,951 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:44,951 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:44,951 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:44,951 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:44,966 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+13:35:44,966 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015876: Starting deployment of "annonceWeb.war"
+13:35:56,845 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:56,849 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:56,849 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:56,853 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:56,858 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:56,862 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:56,862 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:56,862 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:35:57,104 INFO  [org.jboss.as.jpa] (MSC service thread 1-15) JBAS011401: Read persistence.xml for UP_annonce
+13:35:57,503 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+13:35:57,503 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+13:35:57,518 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Read persistence.xml for UP_annonce
+13:35:57,711 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb.jar" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:35:57,711 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-14) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:35:58,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment AnnonceEjb.jar in 45ms
+13:35:58,210 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment annonceWeb.war in 236ms
+13:35:59,335 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015877: Stopped deployment ear.ear in 1358ms
+13:35:59,339 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015876: Starting deployment of "ear.ear"
+13:35:59,340 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS015863: Replacement of deployment "ear.ear" by deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb.jar\" of deployment \"ear.ear\""}}
+13:36:05,222 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:05,222 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:05,222 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:05,222 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:05,238 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:05,238 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:05,238 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:05,238 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:05,238 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+13:36:05,238 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "annonceWeb.war"
+13:36:11,978 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:11,978 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:11,978 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:11,978 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:11,995 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:11,995 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:11,995 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:11,995 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:36:12,026 INFO  [org.jboss.as.jpa] (MSC service thread 1-10) JBAS011401: Read persistence.xml for UP_annonce
+13:36:13,054 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+13:36:13,054 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+13:36:13,070 INFO  [org.jboss.as.jpa] (MSC service thread 1-13) JBAS011401: Read persistence.xml for UP_annonce
+13:36:13,074 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:36:13,074 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb.jar" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:36:13,098 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb.war" of deployment "ear.ear"
+      service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb.jar" of deployment "ear.ear"
+
+13:38:52,765 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 31) JBAS016200: Activating ConfigAdmin Subsystem
+13:38:52,765 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) JBAS010280: Activating Infinispan subsystem.
+13:38:52,781 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 44) JBAS011940: Activating OSGi Subsystem
+13:38:52,781 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 49) JBAS013101: Activating Security Subsystem
+13:38:52,796 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 43) JBAS011800: Activating Naming Subsystem
+13:38:53,015 INFO  [org.jboss.as.security] (MSC service thread 1-5) JBAS013100: Current PicketBox version=4.0.7.Final
+13:38:53,031 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 53) JBAS015537: Activating WebServices Extension
+13:38:53,322 INFO  [org.jboss.as.connector] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+13:38:56,587 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-9) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+13:38:56,596 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+13:38:56,738 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+13:38:57,283 INFO  [org.jboss.as.naming] (MSC service thread 1-10) JBAS011802: Starting Naming Service
+13:38:57,291 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+13:38:58,746 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-6) JBoss Web Services - Stack CXF Server 4.0.2.GA
+13:38:59,373 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:/db_annonce]
+13:38:59,373 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+13:38:59,966 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+13:38:59,998 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment ear.ear
+13:39:00,014 INFO  [org.jboss.as.remoting] (MSC service thread 1-9) JBAS017100: Listening on /127.0.0.1:9999
+13:39:00,014 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on localhost/127.0.0.1:4447
+13:39:00,060 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+13:39:00,582 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015876: Starting deployment of "ear.ear"
+13:39:07,978 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-14) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:07,978 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-14) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:07,994 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-14) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:07,995 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-14) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:07,995 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-14) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:07,995 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-14) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:08,011 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-14) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:08,011 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-14) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:08,011 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+13:39:08,011 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015876: Starting deployment of "annonceWeb.war"
+13:39:14,393 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:14,393 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:14,398 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:14,398 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:14,406 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:14,410 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:14,410 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:14,414 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:39:14,694 INFO  [org.jboss.as.jpa] (MSC service thread 1-11) JBAS011401: Read persistence.xml for UP_annonce
+13:39:14,905 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+13:39:14,905 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+13:39:14,936 INFO  [org.jboss.as.jpa] (MSC service thread 1-9) JBAS011401: Read persistence.xml for UP_annonce
+13:39:14,999 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-15) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb.jar" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:39:14,999 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:39:15,014 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015951: Admin console listening on http://127.0.0.1:9990
+13:39:15,030 ERROR [org.jboss.as] (MSC service thread 1-1) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 39609ms - Started 151 of 230 services (3 services failed or missing dependencies, 74 services are passive or on-demand)
+13:39:15,229 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb.jar\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}
+13:39:15,241 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment AnnonceEjb.jar in 10ms
+13:39:15,355 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015877: Stopped deployment annonceWeb.war in 132ms
+13:39:15,516 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015877: Stopped deployment ear.ear in 292ms
+13:39:15,516 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb.jar" of deployment "ear.ear"
+      service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb.war" of deployment "ear.ear"
+
+13:39:15,516 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb.jar\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}}}
+13:40:00,603 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+13:40:15,666 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "ear.ear"
+13:40:22,091 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:22,095 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:22,095 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:22,095 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:22,104 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:22,104 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:22,108 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:22,108 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:22,112 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015876: Starting deployment of "annonceWeb-0.0.1-SNAPSHOT.war"
+13:40:22,112 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015876: Starting deployment of "AnnonceEjb-0.0.1-SNAPSHOT.jar"
+13:40:29,017 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:29,021 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:29,021 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:29,026 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:29,034 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:29,038 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:29,042 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:29,042 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:40:29,090 INFO  [org.jboss.as.jpa] (MSC service thread 1-13) JBAS011401: Read persistence.xml for UP_annonce
+13:40:29,202 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+13:40:29,202 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+13:40:29,214 INFO  [org.jboss.as.jpa] (MSC service thread 1-10) JBAS011401: Read persistence.xml for UP_annonce
+13:40:29,226 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-13) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."AnnonceEjb-0.0.1-SNAPSHOT.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb-0.0.1-SNAPSHOT.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb-0.0.1-SNAPSHOT.jar" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:40:29,226 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb-0.0.1-SNAPSHOT.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb-0.0.1-SNAPSHOT.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb-0.0.1-SNAPSHOT.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:40:29,454 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb-0.0.1-SNAPSHOT.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb-0.0.1-SNAPSHOT.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb-0.0.1-SNAPSHOT.war\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb-0.0.1-SNAPSHOT.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb-0.0.1-SNAPSHOT.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb-0.0.1-SNAPSHOT.jar\" of deployment \"ear.ear\""}}
+13:40:29,458 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015877: Stopped deployment AnnonceEjb-0.0.1-SNAPSHOT.jar in 5ms
+13:40:29,574 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment annonceWeb-0.0.1-SNAPSHOT.war in 119ms
+13:40:29,782 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment ear.ear in 328ms
+13:40:29,786 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."annonceWeb-0.0.1-SNAPSHOT.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb-0.0.1-SNAPSHOT.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb-0.0.1-SNAPSHOT.war" of deployment "ear.ear"
+      service jboss.deployment.subunit."ear.ear"."AnnonceEjb-0.0.1-SNAPSHOT.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb-0.0.1-SNAPSHOT.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb-0.0.1-SNAPSHOT.jar" of deployment "ear.ear"
+
+13:40:29,790 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb-0.0.1-SNAPSHOT.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb-0.0.1-SNAPSHOT.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb-0.0.1-SNAPSHOT.war\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb-0.0.1-SNAPSHOT.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb-0.0.1-SNAPSHOT.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb-0.0.1-SNAPSHOT.jar\" of deployment \"ear.ear\""}}}}
+13:41:50,718 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+13:41:50,726 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+13:41:50,726 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+13:41:50,742 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+13:41:50,742 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+13:41:50,757 INFO  [org.jboss.as.connector] (MSC service thread 1-12) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+13:41:50,773 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+13:41:50,773 INFO  [org.jboss.as.security] (MSC service thread 1-5) JBAS013100: Current PicketBox version=4.0.7.Final
+13:41:50,851 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+13:41:50,867 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-16) JBAS015400: Bound mail session [java:jboss/mail/Default]
+13:41:50,985 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+13:41:51,001 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+13:41:51,079 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-3) JBoss Web Services - Stack CXF Server 4.0.2.GA
+13:41:51,666 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+13:41:52,091 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+13:41:52,095 INFO  [org.jboss.as.remoting] (MSC service thread 1-15) JBAS017100: Listening on /127.0.0.1:9999
+13:41:52,095 INFO  [org.jboss.as.remoting] (MSC service thread 1-9) JBAS017100: Listening on localhost/127.0.0.1:4447
+13:41:52,099 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+13:41:52,353 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+13:41:52,353 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:/db_annonce]
+13:41:52,536 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+13:41:52,536 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 4571ms - Started 137 of 213 services (74 services are passive or on-demand)
+13:43:22,269 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+13:43:32,358 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "ear.ear"
+13:43:39,265 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:39,269 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:39,274 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:39,274 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:39,286 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:39,290 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:39,294 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:39,298 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-12) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:39,306 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "AnnonceEjb-0.0.1-SNAPSHOT.jar"
+13:43:39,306 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "annonceWeb-0.0.1-SNAPSHOT.war"
+13:43:45,761 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:45,761 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:45,761 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:45,761 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:45,781 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:45,781 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:45,781 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:45,781 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb-0.0.1-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:43:45,927 INFO  [org.jboss.as.jpa] (MSC service thread 1-14) JBAS011401: Read persistence.xml for UP_annonce
+13:43:46,083 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+13:43:46,083 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+13:43:46,099 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) JBAS011401: Read persistence.xml for UP_annonce
+13:43:46,130 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."AnnonceEjb-0.0.1-SNAPSHOT.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb-0.0.1-SNAPSHOT.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb-0.0.1-SNAPSHOT.jar" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:43:46,130 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb-0.0.1-SNAPSHOT.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb-0.0.1-SNAPSHOT.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb-0.0.1-SNAPSHOT.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:43:46,384 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb-0.0.1-SNAPSHOT.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb-0.0.1-SNAPSHOT.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb-0.0.1-SNAPSHOT.jar\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"annonceWeb-0.0.1-SNAPSHOT.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb-0.0.1-SNAPSHOT.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb-0.0.1-SNAPSHOT.war\" of deployment \"ear.ear\""}}
+13:43:46,400 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015877: Stopped deployment AnnonceEjb-0.0.1-SNAPSHOT.jar in 12ms
+13:43:46,498 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment annonceWeb-0.0.1-SNAPSHOT.war in 122ms
+13:43:46,687 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment ear.ear in 303ms
+13:43:46,691 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."AnnonceEjb-0.0.1-SNAPSHOT.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb-0.0.1-SNAPSHOT.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb-0.0.1-SNAPSHOT.jar" of deployment "ear.ear"
+      service jboss.deployment.subunit."ear.ear"."annonceWeb-0.0.1-SNAPSHOT.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb-0.0.1-SNAPSHOT.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb-0.0.1-SNAPSHOT.war" of deployment "ear.ear"
+
+13:43:46,703 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb-0.0.1-SNAPSHOT.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb-0.0.1-SNAPSHOT.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb-0.0.1-SNAPSHOT.jar\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"annonceWeb-0.0.1-SNAPSHOT.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb-0.0.1-SNAPSHOT.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb-0.0.1-SNAPSHOT.war\" of deployment \"ear.ear\""}}}}
+13:44:09,584 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) JBAS014612: Operation ("deploy") failed - address: ([("deployment" => "ear.ear")]): java.util.NoSuchElementException: No child 'runtime-name' exists
+	at org.jboss.dmr.ModelValue.requireChild(ModelValue.java:362) [jboss-dmr-1.1.1.Final.jar:1.1.1.Final]
+	at org.jboss.dmr.ObjectModelValue.requireChild(ObjectModelValue.java:298) [jboss-dmr-1.1.1.Final.jar:1.1.1.Final]
+	at org.jboss.dmr.ModelNode.require(ModelNode.java:812) [jboss-dmr-1.1.1.Final.jar:1.1.1.Final]
+	at org.jboss.as.server.deployment.DeploymentDeployHandler.execute(DeploymentDeployHandler.java:69)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:385) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:272) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.AbstractOperationContext.completeStep(AbstractOperationContext.java:200) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.CompositeOperationHandler.execute(CompositeOperationHandler.java:85) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:385) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:272) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.AbstractOperationContext.completeStep(AbstractOperationContext.java:200) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler.execute(ModelControllerImpl.java:466) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:385) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:272) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.AbstractOperationContext.completeStep(AbstractOperationContext.java:200) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:121) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:139) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:108) [jboss-as-controller-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$2$1.doExecute(AbstractMessageHandler.java:287) [jboss-as-protocol-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$AsyncTaskRunner.run(AbstractMessageHandler.java:487) [jboss-as-protocol-7.1.1.Final.jar:7.1.1.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+	at org.jboss.threads.JBossThread.run(JBossThread.java:122) [jboss-threads-2.0.0.GA.jar:2.0.0.GA]
+
+13:44:51,834 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+13:45:01,877 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "ear.ear"
+13:45:01,898 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+13:45:01,898 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015876: Starting deployment of "annonceWeb.war"
+13:45:08,469 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) Class Path entry jaxb-api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:45:08,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) Class Path entry activation.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:45:08,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) Class Path entry jsr173_1.0_api.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:45:08,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) Class Path entry jaxb1-impl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+13:45:08,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:45:08,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) Class Path entry xercesImpl.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:45:08,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) Class Path entry xml-apis.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:45:08,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) Class Path entry serializer.jar in "/D:/Master GL 2/Maven/jboss-as-7.1.1.Final/standalone/deployments/ear.ear/annonceWeb.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+13:45:08,506 INFO  [org.jboss.as.jpa] (MSC service thread 1-15) JBAS011401: Read persistence.xml for UP_annonce
+13:45:08,597 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+13:45:08,601 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+13:45:08,621 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for UP_annonce
+13:45:08,633 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:45:08,633 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-14) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb.jar" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.IllegalArgumentException: JBAS011470: Persistence unitName was not specified and there are 2 persistence unit definitions in application deployment "ear.ear".  Either change the application to have only one persistence unit definition or specify the unitName for each reference to a persistence unit.
+	at org.jboss.as.jpa.container.PersistenceUnitSearch.resolvePersistenceUnitSupplier(PersistenceUnitSearch.java:69)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getPersistenceUnit(JPAAnnotationParseProcessor.java:284)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.getBindingSource(JPAAnnotationParseProcessor.java:220)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processField(JPAAnnotationParseProcessor.java:151)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.processPersistenceAnnotations(JPAAnnotationParseProcessor.java:118)
+	at org.jboss.as.jpa.processor.JPAAnnotationParseProcessor.deploy(JPAAnnotationParseProcessor.java:90)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+13:45:08,873 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb.jar\" of deployment \"ear.ear\""}}
+13:45:08,873 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015877: Stopped deployment AnnonceEjb.jar in 7ms
+13:45:09,049 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015877: Stopped deployment annonceWeb.war in 178ms
+13:45:09,049 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment ear.ear in 181ms
+13:45:09,049 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "annonceWeb.war" of deployment "ear.ear"
+      service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."AnnonceEjb.jar".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment "AnnonceEjb.jar" of deployment "ear.ear"
+
+13:45:09,049 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\"","jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"AnnonceEjb.jar\".DEPENDENCIES: Failed to process phase DEPENDENCIES of subdeployment \"AnnonceEjb.jar\" of deployment \"ear.ear\""}}}}
+13:46:25,008 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-9) Le conteneur org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] n'a pas été démarré
+13:48:18,438 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+13:48:18,438 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+13:48:18,485 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+13:48:18,485 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+13:48:18,489 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+13:48:18,497 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+13:48:18,501 INFO  [org.jboss.as.security] (MSC service thread 1-12) JBAS013100: Current PicketBox version=4.0.7.Final
+13:48:18,580 INFO  [org.jboss.as.connector] (MSC service thread 1-13) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+13:48:18,739 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+13:48:18,795 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+13:48:18,795 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+13:48:18,834 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-16) JBoss Web Services - Stack CXF Server 4.0.2.GA
+13:48:18,834 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+13:48:19,557 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-14) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+13:48:19,958 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-16) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+13:48:19,974 INFO  [org.jboss.as.remoting] (MSC service thread 1-15) JBAS017100: Listening on /127.0.0.1:9999
+13:48:19,974 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on localhost/127.0.0.1:4447
+13:48:20,041 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+13:48:20,251 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+13:48:20,251 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:/db_annonce]
+13:48:20,314 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "ear.ear"
+13:48:20,413 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+13:48:20,413 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "annonceWeb.war"
+13:48:21,976 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for UP_annonce
+13:48:22,112 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+13:48:22,112 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+13:48:22,450 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named annonce in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:app/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:module/annonce!com.univercity.remote.IAnnonceRemote
+	java:jboss/exported/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:global/ear/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:app/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:module/annonce!com.univercity.local.IAnnonceLocal
+
+13:48:22,458 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named utilisateur in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:app/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:module/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:jboss/exported/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:app/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:module/utilisateur!com.univercity.local.IUtilisateurLocal
+
+13:48:23,619 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011402: Starting Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+13:48:24,735 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-5) The listener "com.sun.faces.config.ConfigureListener" is already configured for this context. The duplicate definition has been ignored.
+13:48:24,753 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-6) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+13:48:24,773 INFO  [org.hibernate.Version] (MSC service thread 1-6) HHH000412: Hibernate Core {4.0.1.Final}
+13:48:24,785 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-6) HHH000206: hibernate.properties not found
+13:48:24,789 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-6) HHH000021: Bytecode provider name : javassist
+13:48:24,869 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-6) HHH000204: Processing PersistenceUnitInfo [
+	name: UP_annonce
+	...]
+13:48:24,913 INFOS [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-5) Initialisation de Mojarra 2.1.7-jbossorg-1 (20120227-1401) pour le contexte «/annonceWeb»
+13:48:25,561 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-6) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+13:48:27,341 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-5) Hibernate Validator 4.2.0.Final
+13:48:28,194 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-6) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+13:48:28,218 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-6) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+13:48:28,246 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-6) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+13:48:28,265 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-6) HHH000397: Using ASTQueryTranslatorFactory
+13:48:30,077 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-6) HHH000228: Running hbm2ddl schema update
+13:48:30,081 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-6) HHH000102: Fetching database metadata
+13:48:30,094 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-6) HHH000396: Updating schema
+13:48:30,214 INFOS [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-5) Running on PrimeFaces 4.0
+13:48:30,626 INFO  [org.jboss.web] (MSC service thread 1-5) JBAS018210: Registering web context: /annonceWeb
+13:48:30,722 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.annonce
+13:48:30,722 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [idutilisateur, region, surface, prix, description, vondu, id_annonce, titre]
+13:48:30,726 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+13:48:30,726 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [fkcd33bfe289256d03, primary, id_annonce]
+13:48:30,790 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.image
+13:48:30,790 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [id_image, idannonce, path]
+13:48:30,794 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+13:48:30,794 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [id_image, fk5faa95bd4250c41, primary]
+13:48:30,874 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.imageuser
+13:48:30,874 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [idutilisateur, id_image, path]
+13:48:30,874 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+13:48:30,878 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [fkcba8e3c689256d03, id_image, primary]
+13:48:30,978 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.message
+13:48:30,978 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [nom_sender, idutilisateur, message, phone, idannonce, email_sender, id_message]
+13:48:30,978 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+13:48:30,982 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [fk38eb000789256d03, primary, id_message]
+13:48:31,086 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.utilisateur
+13:48:31,086 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [tele, prenom, mail, adress, id_utilisateur, type, nom, pass]
+13:48:31,086 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+13:48:31,086 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [mail_2, mail, id_utilisateur, primary]
+13:48:31,090 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-6) HHH000232: Schema update complete
+13:48:31,203 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015951: Admin console listening on http://127.0.0.1:9990
+13:48:31,203 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 16087ms - Started 357 of 439 services (80 services are passive or on-demand)
+13:48:31,391 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "ear.ear"
+13:59:29,495 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+13:59:29,499 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+13:59:29,499 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+13:59:29,503 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+13:59:29,511 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+13:59:29,515 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+13:59:29,543 INFO  [org.jboss.as.security] (MSC service thread 1-12) JBAS013100: Current PicketBox version=4.0.7.Final
+13:59:29,587 INFO  [org.jboss.as.connector] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+13:59:29,675 INFO  [org.jboss.as.naming] (MSC service thread 1-8) JBAS011802: Starting Naming Service
+13:59:29,703 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+13:59:29,881 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+13:59:29,897 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+13:59:29,909 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-16) JBoss Web Services - Stack CXF Server 4.0.2.GA
+13:59:30,575 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-16) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+13:59:30,999 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Listening on /127.0.0.1:9999
+13:59:30,999 INFO  [org.jboss.as.remoting] (MSC service thread 1-12) JBAS017100: Listening on localhost/127.0.0.1:4447
+13:59:31,003 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+13:59:31,067 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+13:59:31,271 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+13:59:31,271 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:/db_annonce]
+13:59:31,331 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "ear.ear"
+13:59:31,414 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015876: Starting deployment of "annonceWeb.war"
+13:59:31,414 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+13:59:32,942 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) JBAS011401: Read persistence.xml for UP_annonce
+13:59:33,076 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+13:59:33,080 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+13:59:33,277 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-9) JNDI bindings for session bean named annonce in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:app/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:module/annonce!com.univercity.remote.IAnnonceRemote
+	java:jboss/exported/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:global/ear/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:app/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:module/annonce!com.univercity.local.IAnnonceLocal
+
+13:59:33,292 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-9) JNDI bindings for session bean named utilisateur in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:app/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:module/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:app/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:module/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:jboss/exported/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+
+13:59:34,477 INFO  [org.jboss.as.jpa] (MSC service thread 1-15) JBAS011402: Starting Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+13:59:35,219 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-15) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+13:59:35,231 INFO  [org.hibernate.Version] (MSC service thread 1-15) HHH000412: Hibernate Core {4.0.1.Final}
+13:59:35,235 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-15) HHH000206: hibernate.properties not found
+13:59:35,235 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-15) HHH000021: Bytecode provider name : javassist
+13:59:35,267 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-15) HHH000204: Processing PersistenceUnitInfo [
+	name: UP_annonce
+	...]
+13:59:35,466 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-11) The listener "com.sun.faces.config.ConfigureListener" is already configured for this context. The duplicate definition has been ignored.
+13:59:35,610 INFOS [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-11) Initialisation de Mojarra 2.1.7-jbossorg-1 (20120227-1401) pour le contexte «/annonceWeb»
+13:59:35,730 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-15) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+13:59:36,263 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-15) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+13:59:36,275 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-15) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+13:59:36,279 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-15) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+13:59:36,294 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-15) HHH000397: Using ASTQueryTranslatorFactory
+13:59:36,372 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-15) Hibernate Validator 4.2.0.Final
+13:59:37,013 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-15) HHH000228: Running hbm2ddl schema update
+13:59:37,017 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-15) HHH000102: Fetching database metadata
+13:59:37,022 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-15) HHH000396: Updating schema
+13:59:37,074 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000261: Table found: db_annonce.annonce
+13:59:37,078 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000037: Columns: [idutilisateur, region, surface, prix, description, vondu, id_annonce, titre]
+13:59:37,078 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000108: Foreign keys: []
+13:59:37,078 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000126: Indexes: [fkcd33bfe289256d03, primary, id_annonce]
+13:59:37,114 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000261: Table found: db_annonce.image
+13:59:37,114 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000037: Columns: [id_image, idannonce, path]
+13:59:37,114 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000108: Foreign keys: []
+13:59:37,114 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000126: Indexes: [id_image, fk5faa95bd4250c41, primary]
+13:59:37,150 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000261: Table found: db_annonce.imageuser
+13:59:37,150 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000037: Columns: [idutilisateur, id_image, path]
+13:59:37,150 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000108: Foreign keys: []
+13:59:37,150 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000126: Indexes: [fkcba8e3c689256d03, id_image, primary]
+13:59:37,185 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000261: Table found: db_annonce.message
+13:59:37,189 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000037: Columns: [nom_sender, idutilisateur, message, phone, idannonce, email_sender, id_message]
+13:59:37,189 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000108: Foreign keys: []
+13:59:37,189 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000126: Indexes: [fk38eb000789256d03, primary, id_message]
+13:59:37,240 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000261: Table found: db_annonce.utilisateur
+13:59:37,240 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000037: Columns: [tele, prenom, mail, adress, id_utilisateur, type, nom, pass]
+13:59:37,244 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000108: Foreign keys: []
+13:59:37,244 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-15) HHH000126: Indexes: [mail_2, mail, id_utilisateur, primary]
+13:59:37,248 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-15) HHH000232: Schema update complete
+13:59:39,757 INFOS [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-11) Running on PrimeFaces 4.0
+13:59:39,821 INFO  [org.jboss.web] (MSC service thread 1-11) JBAS018210: Registering web context: /annonceWeb
+13:59:39,825 INFO  [org.jboss.as] (MSC service thread 1-9) JBAS015951: Admin console listening on http://127.0.0.1:9990
+13:59:39,825 INFO  [org.jboss.as] (MSC service thread 1-9) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 13246ms - Started 357 of 439 services (80 services are passive or on-demand)
+13:59:40,053 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "ear.ear"
+14:30:52,348 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+14:30:52,369 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+14:30:52,378 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+14:30:52,380 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+14:30:52,381 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+14:30:52,385 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+14:30:52,409 INFO  [org.jboss.as.security] (MSC service thread 1-14) JBAS013100: Current PicketBox version=4.0.7.Final
+14:30:52,443 INFO  [org.jboss.as.connector] (MSC service thread 1-9) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+14:30:52,502 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+14:30:52,539 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+14:30:52,723 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+14:30:52,738 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+14:30:52,738 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+14:30:53,348 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-10) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+14:30:53,738 INFO  [org.jboss.as.remoting] (MSC service thread 1-13) JBAS017100: Listening on localhost/127.0.0.1:4447
+14:30:53,738 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on /127.0.0.1:9999
+14:30:53,738 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+14:30:53,818 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+14:30:54,013 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+14:30:54,013 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:/db_annonce]
+14:30:54,058 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "ear.ear"
+14:30:54,116 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "annonceWeb.war"
+14:30:54,116 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+14:30:55,543 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for UP_annonce
+14:30:55,662 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+14:30:55,662 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+14:30:56,436 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: Failed to process phase POST_MODULE of subdeployment "annonceWeb.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.RuntimeException: Error getting reflective information for class com.univercity.controle.WEB with ClassLoader ModuleClassLoader for Module "deployment.ear.ear.annonceWeb.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:58)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:85)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:70)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:55)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/univercity/remote/IUtilisateurRemot;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_71]
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Class.getDeclaredFields(Unknown Source) [rt.jar:1.7.0_71]
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:57) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: com.univercity.remote.IUtilisateurRemot from [Module "deployment.ear.ear.annonceWeb.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	... 15 more
+
+14:30:56,467 INFO  [org.jboss.as] (MSC service thread 1-14) JBAS015951: Admin console listening on http://127.0.0.1:9990
+14:30:56,483 ERROR [org.jboss.as] (MSC service thread 1-14) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 6966ms - Started 164 of 249 services (3 services failed or missing dependencies, 80 services are passive or on-demand)
+14:30:56,677 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE: Failed to process phase POST_MODULE of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}
+14:30:56,694 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment AnnonceEjb.jar in 22ms
+14:30:56,709 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment annonceWeb.war in 40ms
+14:30:56,725 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015877: Stopped deployment ear.ear in 46ms
+14:30:56,725 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: Failed to process phase POST_MODULE of subdeployment "annonceWeb.war" of deployment "ear.ear"
+
+14:30:56,725 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE: Failed to process phase POST_MODULE of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}}}
+14:32:45,480 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-10) Le conteneur org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] n'a pas été démarré
+14:32:49,838 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+14:32:49,838 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+14:32:49,854 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+14:32:49,854 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+14:32:49,869 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+14:32:49,886 INFO  [org.jboss.as.security] (MSC service thread 1-14) JBAS013100: Current PicketBox version=4.0.7.Final
+14:32:49,901 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+14:32:49,917 INFO  [org.jboss.as.connector] (MSC service thread 1-11) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+14:32:50,051 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+14:32:50,060 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+14:32:50,113 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+14:32:50,157 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+14:32:50,211 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-10) JBoss Web Services - Stack CXF Server 4.0.2.GA
+14:32:50,793 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-11) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+14:32:51,171 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-10) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+14:32:51,175 INFO  [org.jboss.as.remoting] (MSC service thread 1-9) JBAS017100: Listening on /127.0.0.1:9999
+14:32:51,175 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on localhost/127.0.0.1:4447
+14:32:51,177 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment ear.ear
+14:32:51,240 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+14:32:51,452 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-9) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+14:32:51,453 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Bound data source [java:/db_annonce]
+14:32:51,504 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015876: Starting deployment of "ear.ear"
+14:32:51,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+14:32:51,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "annonceWeb.war"
+14:32:52,916 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for UP_annonce
+14:32:53,058 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+14:32:53,060 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+14:32:53,748 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-13) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: Failed to process phase POST_MODULE of subdeployment "annonceWeb.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.RuntimeException: Error getting reflective information for class com.univercity.controle.WEB with ClassLoader ModuleClassLoader for Module "deployment.ear.ear.annonceWeb.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:58)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:85)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:70)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:55)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/univercity/remote/IUtilisateurRemot;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_71]
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Class.getDeclaredFields(Unknown Source) [rt.jar:1.7.0_71]
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:57) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: com.univercity.remote.IUtilisateurRemot from [Module "deployment.ear.ear.annonceWeb.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120) [jboss-modules.jar:1.1.1.GA]
+	... 15 more
+
+14:32:53,779 INFO  [org.jboss.as] (MSC service thread 1-10) JBAS015951: Admin console listening on http://127.0.0.1:9990
+14:32:53,779 ERROR [org.jboss.as] (MSC service thread 1-10) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 6686ms - Started 164 of 249 services (3 services failed or missing dependencies, 80 services are passive or on-demand)
+14:32:53,993 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE: Failed to process phase POST_MODULE of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}
+14:32:54,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment AnnonceEjb.jar in 28ms
+14:32:54,042 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment annonceWeb.war in 47ms
+14:32:54,047 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment ear.ear in 54ms
+14:32:54,051 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: Failed to process phase POST_MODULE of subdeployment "annonceWeb.war" of deployment "ear.ear"
+
+14:32:54,059 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE: Failed to process phase POST_MODULE of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}}}
+14:33:19,113 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "ear.ear"
+14:33:19,129 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "annonceWeb.war"
+14:33:19,129 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+14:33:20,001 INFO  [org.jboss.as.jpa] (MSC service thread 1-14) JBAS011401: Read persistence.xml for UP_annonce
+14:33:20,069 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+14:33:20,071 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+14:33:20,236 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-12) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: Failed to process phase POST_MODULE of subdeployment "annonceWeb.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.RuntimeException: Error getting reflective information for class com.univercity.controle.WEB with ClassLoader ModuleClassLoader for Module "deployment.ear.ear.annonceWeb.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:58)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:85)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:70)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:55)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/univercity/remote/IUtilisateurRemot;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_71]
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Class.getDeclaredFields(Unknown Source) [rt.jar:1.7.0_71]
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:57) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: com.univercity.remote.IUtilisateurRemot from [Module "deployment.ear.ear.annonceWeb.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120) [jboss-modules.jar:1.1.1.GA]
+	... 15 more
+
+14:33:20,471 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE: Failed to process phase POST_MODULE of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}
+14:33:20,488 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015877: Stopped deployment AnnonceEjb.jar in 15ms
+14:33:20,496 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment annonceWeb.war in 27ms
+14:33:20,496 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015877: Stopped deployment ear.ear in 30ms
+14:33:20,496 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: Failed to process phase POST_MODULE of subdeployment "annonceWeb.war" of deployment "ear.ear"
+
+14:33:20,496 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE: Failed to process phase POST_MODULE of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}}}
+14:33:32,317 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-16) Le conteneur org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] n'a pas été démarré
+14:33:36,705 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+14:33:36,716 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+14:33:36,719 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+14:33:36,723 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+14:33:36,723 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+14:33:36,745 INFO  [org.jboss.as.security] (MSC service thread 1-9) JBAS013100: Current PicketBox version=4.0.7.Final
+14:33:36,755 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+14:33:36,761 INFO  [org.jboss.as.connector] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+14:33:36,832 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Starting Naming Service
+14:33:36,852 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+14:33:37,027 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+14:33:37,043 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+14:33:37,074 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-7) JBoss Web Services - Stack CXF Server 4.0.2.GA
+14:33:37,688 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-15) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+14:33:38,004 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+14:33:38,004 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on /127.0.0.1:9999
+14:33:38,004 INFO  [org.jboss.as.remoting] (MSC service thread 1-14) JBAS017100: Listening on localhost/127.0.0.1:4447
+14:33:38,270 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-14) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+14:33:38,270 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:/db_annonce]
+14:33:38,426 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+14:33:38,442 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 4498ms - Started 137 of 213 services (74 services are passive or on-demand)
+14:33:58,072 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+14:33:58,104 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "ear.ear"
+14:33:58,167 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+14:33:58,167 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "annonceWeb.war"
+14:33:59,543 INFO  [org.jboss.as.jpa] (MSC service thread 1-16) JBAS011401: Read persistence.xml for UP_annonce
+14:33:59,664 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+14:33:59,666 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+14:34:00,255 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC00001: Failed to start service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: Failed to process phase POST_MODULE of subdeployment "annonceWeb.war" of deployment "ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.lang.RuntimeException: Error getting reflective information for class com.univercity.controle.WEB with ClassLoader ModuleClassLoader for Module "deployment.ear.ear.annonceWeb.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:58)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:85)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:70)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:55)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/univercity/remote/IUtilisateurRemot;
+	at java.lang.Class.getDeclaredFields0(Native Method) [rt.jar:1.7.0_71]
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Class.getDeclaredFields(Unknown Source) [rt.jar:1.7.0_71]
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:57) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: com.univercity.remote.IUtilisateurRemot from [Module "deployment.ear.ear.annonceWeb.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120) [jboss-modules.jar:1.1.1.GA]
+	... 15 more
+
+14:34:00,489 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ear.ear" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE: Failed to process phase POST_MODULE of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}
+14:34:00,513 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015877: Stopped deployment AnnonceEjb.jar in 22ms
+14:34:00,528 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015877: Stopped deployment annonceWeb.war in 37ms
+14:34:00,532 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment ear.ear in 43ms
+14:34:00,535 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."annonceWeb.war".POST_MODULE: Failed to process phase POST_MODULE of subdeployment "annonceWeb.war" of deployment "ear.ear"
+
+14:34:00,540 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"ear.ear\".\"annonceWeb.war\".POST_MODULE: Failed to process phase POST_MODULE of subdeployment \"annonceWeb.war\" of deployment \"ear.ear\""}}}}
+14:35:23,776 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-16) Le conteneur org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] n'a pas été démarré
+14:35:23,776 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-9) Suspension de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+14:35:23,776 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-9) Arrêt de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+14:35:23,776 INFO  [org.jboss.as.osgi] (MSC service thread 1-13) JBAS011942: Stopping OSGi Framework
+14:35:29,685 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+14:35:29,688 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+14:35:29,692 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+14:35:29,718 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+14:35:29,724 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+14:35:29,733 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+14:35:29,743 INFO  [org.jboss.as.connector] (MSC service thread 1-11) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+14:35:29,805 INFO  [org.jboss.as.security] (MSC service thread 1-14) JBAS013100: Current PicketBox version=4.0.7.Final
+14:35:29,909 INFO  [org.jboss.as.naming] (MSC service thread 1-15) JBAS011802: Starting Naming Service
+14:35:29,933 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-15) JBAS015400: Bound mail session [java:jboss/mail/Default]
+14:35:30,012 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+14:35:30,028 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+14:35:30,075 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-16) JBoss Web Services - Stack CXF Server 4.0.2.GA
+14:35:30,746 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+14:35:31,119 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on localhost/127.0.0.1:4447
+14:35:31,119 INFO  [org.jboss.as.remoting] (MSC service thread 1-10) JBAS017100: Listening on /127.0.0.1:9999
+14:35:31,120 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-15) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+14:35:31,349 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+14:35:31,349 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:/db_annonce]
+14:35:31,535 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+14:35:31,535 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 4883ms - Started 137 of 213 services (74 services are passive or on-demand)
+14:44:56,159 INFO  [org.jboss.as.osgi] (MSC service thread 1-15) JBAS011942: Stopping OSGi Framework
+14:45:00,628 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+14:45:00,628 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+14:45:00,628 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+14:45:00,628 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+14:45:00,628 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+14:45:00,660 INFO  [org.jboss.as.connector] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+14:45:00,660 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+14:45:00,675 INFO  [org.jboss.as.naming] (MSC service thread 1-10) JBAS011802: Starting Naming Service
+14:45:00,706 INFO  [org.jboss.as.security] (MSC service thread 1-10) JBAS013100: Current PicketBox version=4.0.7.Final
+14:45:00,785 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+14:45:00,911 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+14:45:00,926 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+14:45:01,004 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-6) JBoss Web Services - Stack CXF Server 4.0.2.GA
+14:45:01,596 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+14:45:01,972 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-14) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+14:45:01,972 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on localhost/127.0.0.1:4447
+14:45:01,972 INFO  [org.jboss.as.remoting] (MSC service thread 1-11) JBAS017100: Listening on /127.0.0.1:9999
+14:45:02,200 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+14:45:02,200 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-13) JBAS010400: Bound data source [java:/db_annonce]
+14:45:02,341 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+14:45:02,341 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 4589ms - Started 137 of 213 services (74 services are passive or on-demand)
+14:45:17,015 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+14:45:17,067 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015876: Starting deployment of "ear.ear"
+14:45:17,157 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+14:45:17,157 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "annonceWeb.war"
+14:45:18,825 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for UP_annonce
+14:45:18,989 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+14:45:18,989 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+14:45:19,161 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-15) JNDI bindings for session bean named annonce in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:app/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:module/annonce!com.univercity.remote.IAnnonceRemote
+	java:jboss/exported/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:global/ear/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:app/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:module/annonce!com.univercity.local.IAnnonceLocal
+
+14:45:19,176 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-15) JNDI bindings for session bean named utilisateur in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:app/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:module/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:app/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:module/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:jboss/exported/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+
+14:45:19,886 INFO  [org.jboss.as.jpa] (MSC service thread 1-16) JBAS011402: Starting Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+14:45:20,173 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-16) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+14:45:20,188 INFO  [org.hibernate.Version] (MSC service thread 1-16) HHH000412: Hibernate Core {4.0.1.Final}
+14:45:20,188 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-16) HHH000206: hibernate.properties not found
+14:45:20,188 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-16) HHH000021: Bytecode provider name : javassist
+14:45:20,235 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-16) HHH000204: Processing PersistenceUnitInfo [
+	name: UP_annonce
+	...]
+14:45:20,329 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-2) The listener "com.sun.faces.config.ConfigureListener" is already configured for this context. The duplicate definition has been ignored.
+14:45:20,447 INFOS [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-2) Initialisation de Mojarra 2.1.7-jbossorg-1 (20120227-1401) pour le contexte «/annonceWeb»
+14:45:20,783 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-16) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+14:45:21,310 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-16) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+14:45:21,327 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-16) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+14:45:21,358 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-16) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+14:45:21,358 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-16) HHH000397: Using ASTQueryTranslatorFactory
+14:45:21,483 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-16) Hibernate Validator 4.2.0.Final
+14:45:22,426 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-16) HHH000228: Running hbm2ddl schema update
+14:45:22,428 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-16) HHH000102: Fetching database metadata
+14:45:22,440 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-16) HHH000396: Updating schema
+14:45:22,485 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000261: Table found: db_annonce.annonce
+14:45:22,485 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000037: Columns: [idutilisateur, region, surface, prix, description, vondu, id_annonce, titre]
+14:45:22,485 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000108: Foreign keys: []
+14:45:22,485 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000126: Indexes: [fkcd33bfe289256d03, primary, id_annonce]
+14:45:22,548 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000261: Table found: db_annonce.image
+14:45:22,548 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000037: Columns: [id_image, idannonce, path]
+14:45:22,548 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000108: Foreign keys: []
+14:45:22,548 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000126: Indexes: [id_image, fk5faa95bd4250c41, primary]
+14:45:22,579 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000261: Table found: db_annonce.imageuser
+14:45:22,579 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000037: Columns: [idutilisateur, id_image, path]
+14:45:22,579 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000108: Foreign keys: []
+14:45:22,579 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000126: Indexes: [fkcba8e3c689256d03, id_image, primary]
+14:45:22,610 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000261: Table found: db_annonce.message
+14:45:22,610 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000037: Columns: [nom_sender, idutilisateur, message, phone, idannonce, email_sender, id_message]
+14:45:22,610 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000108: Foreign keys: []
+14:45:22,610 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000126: Indexes: [fk38eb000789256d03, primary, id_message]
+14:45:22,642 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000261: Table found: db_annonce.utilisateur
+14:45:22,642 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000037: Columns: [tele, prenom, mail, adress, id_utilisateur, type, nom, pass]
+14:45:22,658 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000108: Foreign keys: []
+14:45:22,659 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-16) HHH000126: Indexes: [mail_2, mail, id_utilisateur, primary]
+14:45:22,662 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-16) HHH000232: Schema update complete
+14:45:24,424 INFOS [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-2) Running on PrimeFaces 4.0
+14:45:24,503 INFO  [org.jboss.web] (MSC service thread 1-2) JBAS018210: Registering web context: /annonceWeb
+14:45:24,691 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "ear.ear"
+14:59:40,394 INFO  [org.jboss.as.osgi] (MSC service thread 1-7) JBAS011942: Stopping OSGi Framework
+14:59:45,279 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+14:59:45,279 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+14:59:45,295 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+14:59:45,311 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+14:59:45,311 INFO  [org.jboss.as.security] (MSC service thread 1-14) JBAS013100: Current PicketBox version=4.0.7.Final
+14:59:45,326 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+14:59:45,342 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+14:59:45,342 INFO  [org.jboss.as.connector] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+14:59:45,420 INFO  [org.jboss.as.naming] (MSC service thread 1-11) JBAS011802: Starting Naming Service
+14:59:45,451 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-10) JBAS015400: Bound mail session [java:jboss/mail/Default]
+14:59:45,616 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+14:59:45,630 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+14:59:45,672 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-2) JBoss Web Services - Stack CXF Server 4.0.2.GA
+14:59:46,236 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Démarrage de Coyote HTTP/1.1 sur http-localhost-127.0.0.1-8080
+14:59:46,604 INFO  [org.jboss.as.remoting] (MSC service thread 1-13) JBAS017100: Listening on localhost/127.0.0.1:4447
+14:59:46,604 INFO  [org.jboss.as.remoting] (MSC service thread 1-11) JBAS017100: Listening on /127.0.0.1:9999
+14:59:46,605 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-14) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+14:59:46,621 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+14:59:46,823 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+14:59:46,823 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:/db_annonce]
+14:59:46,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015876: Starting deployment of "ear.ear"
+14:59:46,982 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "annonceWeb.war"
+14:59:46,982 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+14:59:48,636 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for UP_annonce
+14:59:48,769 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+14:59:48,772 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+14:59:48,996 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-16) JNDI bindings for session bean named annonce in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:app/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:module/annonce!com.univercity.remote.IAnnonceRemote
+	java:jboss/exported/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:global/ear/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:app/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:module/annonce!com.univercity.local.IAnnonceLocal
+
+14:59:48,996 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-16) JNDI bindings for session bean named utilisateur in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:app/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:module/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:app/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:module/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:jboss/exported/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+
+14:59:50,173 INFO  [org.jboss.as.jpa] (MSC service thread 1-9) JBAS011402: Starting Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+14:59:50,480 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-9) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+14:59:50,495 INFO  [org.hibernate.Version] (MSC service thread 1-9) HHH000412: Hibernate Core {4.0.1.Final}
+14:59:50,495 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-9) HHH000206: hibernate.properties not found
+14:59:50,513 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-9) HHH000021: Bytecode provider name : javassist
+14:59:50,557 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-9) HHH000204: Processing PersistenceUnitInfo [
+	name: UP_annonce
+	...]
+14:59:50,728 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-8) The listener "com.sun.faces.config.ConfigureListener" is already configured for this context. The duplicate definition has been ignored.
+14:59:50,873 INFOS [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-8) Initialisation de Mojarra 2.1.7-jbossorg-1 (20120227-1401) pour le contexte «/annonceWeb»
+14:59:51,048 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-9) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+14:59:51,831 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-9) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+14:59:51,846 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-9) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+14:59:51,864 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-9) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+14:59:51,872 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-9) HHH000397: Using ASTQueryTranslatorFactory
+14:59:51,944 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-9) Hibernate Validator 4.2.0.Final
+14:59:52,667 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-9) HHH000228: Running hbm2ddl schema update
+14:59:52,667 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-9) HHH000102: Fetching database metadata
+14:59:52,683 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-9) HHH000396: Updating schema
+14:59:52,729 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000261: Table found: db_annonce.annonce
+14:59:52,729 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000037: Columns: [idutilisateur, region, surface, prix, description, vondu, id_annonce, titre]
+14:59:52,729 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000108: Foreign keys: []
+14:59:52,729 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000126: Indexes: [fkcd33bfe289256d03, primary, id_annonce]
+14:59:52,792 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000261: Table found: db_annonce.image
+14:59:52,792 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000037: Columns: [id_image, idannonce, path]
+14:59:52,792 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000108: Foreign keys: []
+14:59:52,792 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000126: Indexes: [id_image, fk5faa95bd4250c41, primary]
+14:59:52,823 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000261: Table found: db_annonce.imageuser
+14:59:52,823 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000037: Columns: [idutilisateur, id_image, path]
+14:59:52,823 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000108: Foreign keys: []
+14:59:52,823 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000126: Indexes: [fkcba8e3c689256d03, id_image, primary]
+14:59:52,854 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000261: Table found: db_annonce.message
+14:59:52,854 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000037: Columns: [nom_sender, idutilisateur, message, phone, idannonce, email_sender, id_message]
+14:59:52,854 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000108: Foreign keys: []
+14:59:52,854 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000126: Indexes: [fk38eb000789256d03, primary, id_message]
+14:59:52,871 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000261: Table found: db_annonce.utilisateur
+14:59:52,871 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000037: Columns: [tele, prenom, mail, adress, id_utilisateur, type, nom, pass]
+14:59:52,887 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000108: Foreign keys: []
+14:59:52,887 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-9) HHH000126: Indexes: [mail_2, mail, id_utilisateur, primary]
+14:59:52,887 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-9) HHH000232: Schema update complete
+14:59:54,247 INFOS [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-8) Running on PrimeFaces 4.0
+14:59:54,297 INFO  [org.jboss.web] (MSC service thread 1-8) JBAS018210: Registering web context: /annonceWeb
+14:59:54,297 INFO  [org.jboss.as] (MSC service thread 1-10) JBAS015951: Admin console listening on http://127.0.0.1:9990
+14:59:54,297 INFO  [org.jboss.as] (MSC service thread 1-10) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 11784ms - Started 357 of 439 services (80 services are passive or on-demand)
+14:59:54,469 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "ear.ear"

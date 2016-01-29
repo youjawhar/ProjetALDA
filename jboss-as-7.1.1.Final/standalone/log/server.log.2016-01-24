@@ -1,0 +1,382 @@
+22:26:34,636 ERROR [org.jboss.remoting.remote.connection] (Remoting "youssef-jawhar:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+22:26:51,576 ERROR [org.jboss.remoting.remote.connection] (Remoting "youssef-jawhar:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+22:26:51,576 ERROR [org.jboss.remoting.remote.connection] (Remoting "youssef-jawhar:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+22:26:51,592 ERROR [org.jboss.remoting.remote.connection] (Remoting "youssef-jawhar:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+22:26:57,607 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 43) JBAS010280: Activating Infinispan subsystem.
+22:26:57,635 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 51) JBAS011940: Activating OSGi Subsystem
+22:26:57,627 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 56) JBAS013101: Activating Security Subsystem
+22:26:57,631 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) JBAS011800: Activating Naming Subsystem
+22:26:57,627 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 38) JBAS016200: Activating ConfigAdmin Subsystem
+22:26:57,703 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.0.3.GA
+22:26:57,743 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) JBAS015537: Activating WebServices Extension
+22:26:57,751 INFO  [org.jboss.as.security] (MSC service thread 1-9) JBAS013100: Current PicketBox version=4.0.7.Final
+22:26:57,775 INFO  [org.jboss.as.naming] (MSC service thread 1-15) JBAS011802: Starting Naming Service
+22:26:57,787 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+22:26:57,823 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 3.2.3.GA
+22:26:57,975 INFO  [org.jboss.as.connector] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+22:26:59,227 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 39) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+22:26:59,353 ERROR [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-13) Erreur à l'initialisation du point de contact: java.net.BindException: Address already in use: JVM_Bind localhost/127.0.0.1:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.init(JIoEndpoint.java:983) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.http11.Http11Protocol.init(Http11Protocol.java:190) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.Connector.init(Connector.java:983) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.WebConnectorService.start(WebConnectorService.java:267) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+
+22:26:59,486 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-13) MSC00001: Failed to start service jboss.web.connector.http: org.jboss.msc.service.StartException in service jboss.web.connector.http: JBAS018007: Error starting web connector
+	at org.jboss.as.web.WebConnectorService.start(WebConnectorService.java:271)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: LifecycleException:  L'initialisation du gestionnaire de protocole a échoué: java.net.BindException: Address already in use: JVM_Bind localhost/127.0.0.1:8080
+	at org.apache.catalina.connector.Connector.init(Connector.java:985)
+	at org.jboss.as.web.WebConnectorService.start(WebConnectorService.java:267)
+	... 5 more
+
+22:27:00,161 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 39) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+22:27:01,567 ERROR [org.jboss.remoting.remote.connection] (Remoting "youssef-jawhar:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+22:27:02,639 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:/db_annonce]
+22:27:02,639 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+22:27:04,621 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-10) JBoss Web Services - Stack CXF Server 4.0.2.GA
+22:27:06,184 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-16) MSC00001: Failed to start service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: Address already in use: bind /127.0.0.1:9990
+	at org.jboss.as.server.mgmt.HttpManagementService.start(HttpManagementService.java:210) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.7.0_71]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at org.jboss.sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:144)
+	at org.jboss.sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:54)
+	at org.jboss.sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:38)
+	at org.jboss.com.sun.net.httpserver.HttpServer.create(HttpServer.java:147)
+	at org.jboss.as.domain.http.server.ManagementHttpServer.create(ManagementHttpServer.java:145) [jboss-as-domain-http-interface-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.server.mgmt.HttpManagementService.start(HttpManagementService.java:177) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+22:27:06,199 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC00001: Failed to start service jboss.remoting.server.remoting-connector: org.jboss.msc.service.StartException in service jboss.remoting.server.remoting-connector: JBAS017112: Address already in use: bind localhost/127.0.0.1:4447
+	at org.jboss.as.remoting.AbstractStreamServerService.start(AbstractStreamServerService.java:109)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.7.0_71]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at org.xnio.nio.NioXnioWorker.createTcpServer(NioXnioWorker.java:287)
+	at org.xnio.XnioWorker.createStreamServer(XnioWorker.java:135)
+	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface.createServer(RemoteConnectionProvider.java:209)
+	at org.jboss.as.remoting.AbstractStreamServerService.start(AbstractStreamServerService.java:101)
+	... 5 more
+
+22:27:06,199 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-15) MSC00001: Failed to start service jboss.remoting.server.management: org.jboss.msc.service.StartException in service jboss.remoting.server.management: JBAS017112: Address already in use: bind /127.0.0.1:9999
+	at org.jboss.as.remoting.AbstractStreamServerService.start(AbstractStreamServerService.java:109) [jboss-as-remoting-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.7.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.7.0_71]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.7.0_71]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.7.0_71]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.7.0_71]
+	at org.xnio.nio.NioXnioWorker.createTcpServer(NioXnioWorker.java:287)
+	at org.xnio.XnioWorker.createStreamServer(XnioWorker.java:135) [xnio-api-3.0.3.GA.jar:3.0.3.GA]
+	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface.createServer(RemoteConnectionProvider.java:209) [jboss-remoting-3.2.3.GA.jar:3.2.3.GA]
+	at org.jboss.as.remoting.AbstractStreamServerService.start(AbstractStreamServerService.java:101) [jboss-as-remoting-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+22:27:06,259 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory D:\Master GL 2\Maven\jboss-as-7.1.1.Final\standalone\deployments
+22:27:06,729 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.remoting.server.management: org.jboss.msc.service.StartException in service jboss.remoting.server.management: JBAS017112: Address already in use: bind /127.0.0.1:9999
+      service jboss.web.connector.http: org.jboss.msc.service.StartException in service jboss.web.connector.http: JBAS018007: Error starting web connector
+      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: Address already in use: bind /127.0.0.1:9990
+      service jboss.remoting.server.remoting-connector: org.jboss.msc.service.StartException in service jboss.remoting.server.remoting-connector: JBAS017112: Address already in use: bind localhost/127.0.0.1:4447
+
+22:27:08,746 ERROR [org.jboss.remoting.remote.connection] (Remoting "youssef-jawhar:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+22:27:09,287 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ear.ear in deployment directory. To trigger deployment create a file called ear.ear.dodeploy
+22:27:10,764 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015954: Admin console is not enabled
+22:27:10,764 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 36453ms - Started 130 of 213 services (7 services failed or missing dependencies, 74 services are passive or on-demand)
+22:27:10,797 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "ear.ear"
+22:27:11,561 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+22:27:11,561 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "annonceWeb.war"
+22:27:16,949 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) JBAS011401: Read persistence.xml for UP_annonce
+22:27:17,174 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+22:27:17,178 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+22:27:17,614 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-14) JNDI bindings for session bean named annonce in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:app/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:module/annonce!com.univercity.local.IAnnonceLocal
+	java:global/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:app/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:module/annonce!com.univercity.remote.IAnnonceRemote
+	java:jboss/exported/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+
+22:27:17,618 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-14) JNDI bindings for session bean named utilisateur in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:app/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:module/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:app/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:module/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:jboss/exported/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+
+22:27:19,850 INFO  [org.jboss.as.jpa] (MSC service thread 1-14) JBAS011403: Stopping Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+22:27:21,408 INFO  [org.jboss.as.jpa] (MSC service thread 1-11) JBAS011402: Starting Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+22:27:23,023 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-8) The listener "com.sun.faces.config.ConfigureListener" is already configured for this context. The duplicate definition has been ignored.
+22:27:23,412 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment AnnonceEjb.jar in 4904ms
+22:27:23,817 INFOS [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-8) Initialisation de Mojarra 2.1.7-jbossorg-1 (20120227-1401) pour le contexte «/annonceWeb»
+22:27:23,937 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015877: Stopped deployment annonceWeb.war in 5454ms
+22:27:23,961 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-11) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+22:27:24,053 INFO  [org.hibernate.Version] (MSC service thread 1-11) HHH000412: Hibernate Core {4.0.1.Final}
+22:27:24,057 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-11) HHH000206: hibernate.properties not found
+22:27:24,058 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-11) HHH000021: Bytecode provider name : javassist
+22:27:24,230 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment ear.ear in 6220ms
+22:27:24,262 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "ear.ear"
+22:27:24,402 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+22:27:24,402 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015876: Starting deployment of "annonceWeb.war"
+22:27:24,842 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-11) HHH000204: Processing PersistenceUnitInfo [
+	name: UP_annonce
+	...]
+22:27:32,230 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-11) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+22:27:33,979 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for UP_annonce
+22:27:37,484 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+22:27:37,484 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+22:27:51,925 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-8) Hibernate Validator 4.2.0.Final
+22:27:52,122 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-12) JNDI bindings for session bean named annonce in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:app/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:module/annonce!com.univercity.remote.IAnnonceRemote
+	java:jboss/exported/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:global/ear/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:app/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:module/annonce!com.univercity.local.IAnnonceLocal
+
+22:27:52,151 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-12) JNDI bindings for session bean named utilisateur in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:app/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:module/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:app/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:module/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:jboss/exported/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+
+22:27:53,291 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011402: Starting Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+22:27:53,428 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-3) HHH000204: Processing PersistenceUnitInfo [
+	name: UP_annonce
+	...]
+22:27:53,972 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-3) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+22:27:55,108 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-6) The listener "com.sun.faces.config.ConfigureListener" is already configured for this context. The duplicate definition has been ignored.
+22:27:55,491 INFOS [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-8) Running on PrimeFaces 4.0
+22:27:55,832 INFOS [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-6) Initialisation de Mojarra 2.1.7-jbossorg-1 (20120227-1401) pour le contexte «/annonceWeb»
+22:27:56,721 INFO  [org.jboss.web] (MSC service thread 1-8) JBAS018210: Registering web context: /annonceWeb
+22:27:57,798 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-3) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+22:27:57,811 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-3) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+22:27:57,823 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-3) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+22:27:57,827 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-3) HHH000397: Using ASTQueryTranslatorFactory
+22:27:57,915 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-11) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+22:27:57,944 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-11) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+22:27:57,972 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-11) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+22:27:58,120 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-11) HHH000397: Using ASTQueryTranslatorFactory
+22:27:58,252 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-3) HHH000228: Running hbm2ddl schema update
+22:27:58,256 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-3) HHH000102: Fetching database metadata
+22:27:58,260 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-3) HHH000396: Updating schema
+22:27:59,012 INFOS [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-6) Running on PrimeFaces 4.0
+22:27:59,016 INFO  [org.jboss.web] (MSC service thread 1-6) JBAS018210: Registering web context: /annonceWeb
+22:27:59,141 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: db_annonce.annonce
+22:27:59,141 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [idutilisateur, region, surface, prix, description, vondu, id_annonce, titre]
+22:27:59,141 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000108: Foreign keys: []
+22:27:59,145 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000126: Indexes: [fkcd33bfe289256d03, primary, id_annonce]
+22:27:59,261 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: db_annonce.image
+22:27:59,261 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [id_image, idannonce, path]
+22:27:59,265 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000108: Foreign keys: []
+22:27:59,265 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000126: Indexes: [id_image, fk5faa95bd4250c41, primary]
+22:27:59,409 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: db_annonce.imageuser
+22:27:59,409 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [idutilisateur, id_image, path]
+22:27:59,409 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000108: Foreign keys: []
+22:27:59,409 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000126: Indexes: [fkcba8e3c689256d03, id_image, primary]
+22:27:59,585 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: db_annonce.message
+22:27:59,585 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [nom_sender, idutilisateur, message, phone, idannonce, email_sender, id_message]
+22:27:59,585 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000108: Foreign keys: []
+22:27:59,589 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000126: Indexes: [fk38eb000789256d03, primary, id_message]
+22:27:59,645 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000261: Table found: db_annonce.utilisateur
+22:27:59,645 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000037: Columns: [tele, prenom, mail, adress, id_utilisateur, type, nom, pass]
+22:27:59,649 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000108: Foreign keys: []
+22:27:59,649 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-3) HHH000126: Indexes: [mail_2, mail, id_utilisateur, primary]
+22:27:59,649 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-3) HHH000232: Schema update complete
+22:27:59,981 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "ear.ear" with deployment "ear.ear"
+22:28:00,501 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-11) HHH000228: Running hbm2ddl schema update
+22:28:00,505 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-11) HHH000102: Fetching database metadata
+22:28:00,510 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-11) HHH000396: Updating schema
+22:28:00,574 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000261: Table found: db_annonce.annonce
+22:28:00,574 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000037: Columns: [idutilisateur, region, surface, prix, description, vondu, id_annonce, titre]
+22:28:00,574 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000108: Foreign keys: []
+22:28:00,574 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000126: Indexes: [fkcd33bfe289256d03, primary, id_annonce]
+22:28:00,594 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000261: Table found: db_annonce.image
+22:28:00,598 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000037: Columns: [id_image, idannonce, path]
+22:28:00,598 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000108: Foreign keys: []
+22:28:00,598 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000126: Indexes: [id_image, fk5faa95bd4250c41, primary]
+22:28:00,618 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000261: Table found: db_annonce.imageuser
+22:28:00,618 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000037: Columns: [idutilisateur, id_image, path]
+22:28:00,622 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000108: Foreign keys: []
+22:28:00,622 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000126: Indexes: [fkcba8e3c689256d03, id_image, primary]
+22:28:00,670 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000261: Table found: db_annonce.message
+22:28:00,674 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000037: Columns: [nom_sender, idutilisateur, message, phone, idannonce, email_sender, id_message]
+22:28:00,674 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000108: Foreign keys: []
+22:28:00,674 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000126: Indexes: [fk38eb000789256d03, primary, id_message]
+22:28:00,698 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000261: Table found: db_annonce.utilisateur
+22:28:00,702 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000037: Columns: [tele, prenom, mail, adress, id_utilisateur, type, nom, pass]
+22:28:00,702 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000108: Foreign keys: []
+22:28:00,702 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-11) HHH000126: Indexes: [mail_2, mail, id_utilisateur, primary]
+22:28:00,706 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-11) HHH000232: Schema update complete
+22:28:01,090 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "ear.ear"
+22:53:22,164 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) JBAS011403: Stopping Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+22:53:22,198 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment AnnonceEjb.jar in 44ms
+22:53:22,198 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015877: Stopped deployment annonceWeb.war in 55ms
+22:53:22,214 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment ear.ear in 57ms
+22:53:22,214 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "ear.ear"
+22:53:22,249 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015876: Starting deployment of "annonceWeb.war"
+22:53:22,249 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+22:53:23,551 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011403: Stopping Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+22:53:23,615 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment AnnonceEjb.jar in 78ms
+22:53:23,630 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment annonceWeb.war in 90ms
+22:53:23,634 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment ear.ear in 95ms
+22:53:23,638 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015876: Starting deployment of "ear.ear"
+22:53:23,654 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "AnnonceEjb.jar"
+22:53:23,654 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "annonceWeb.war"
+22:53:24,504 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for UP_annonce
+22:53:24,582 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+22:53:24,582 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+22:53:24,646 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-14) JNDI bindings for session bean named annonce in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:app/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:module/annonce!com.univercity.local.IAnnonceLocal
+	java:global/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:app/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:module/annonce!com.univercity.remote.IAnnonceRemote
+	java:jboss/exported/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+
+22:53:24,661 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-14) JNDI bindings for session bean named utilisateur in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:app/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:module/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:app/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:module/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:jboss/exported/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+
+22:53:24,940 INFO  [org.jboss.as.jpa] (MSC service thread 1-13) JBAS011402: Starting Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+22:53:24,940 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-13) HHH000204: Processing PersistenceUnitInfo [
+	name: UP_annonce
+	...]
+22:53:25,002 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-13) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+22:53:25,033 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-13) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+22:53:25,033 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-13) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+22:53:25,049 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-13) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+22:53:25,049 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-13) HHH000397: Using ASTQueryTranslatorFactory
+22:53:25,194 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-13) HHH000228: Running hbm2ddl schema update
+22:53:25,197 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-13) HHH000102: Fetching database metadata
+22:53:25,198 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-13) HHH000396: Updating schema
+22:53:25,243 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000261: Table found: db_annonce.annonce
+22:53:25,243 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000037: Columns: [idutilisateur, region, surface, prix, description, vondu, id_annonce, titre]
+22:53:25,243 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000108: Foreign keys: []
+22:53:25,243 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000126: Indexes: [fkcd33bfe289256d03, primary, id_annonce]
+22:53:25,275 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-12) The listener "com.sun.faces.config.ConfigureListener" is already configured for this context. The duplicate definition has been ignored.
+22:53:25,275 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000261: Table found: db_annonce.image
+22:53:25,275 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000037: Columns: [id_image, idannonce, path]
+22:53:25,275 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000108: Foreign keys: []
+22:53:25,275 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000126: Indexes: [id_image, fk5faa95bd4250c41, primary]
+22:53:25,294 INFOS [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-12) Initialisation de Mojarra 2.1.7-jbossorg-1 (20120227-1401) pour le contexte «/annonceWeb»
+22:53:25,310 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000261: Table found: db_annonce.imageuser
+22:53:25,314 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000037: Columns: [idutilisateur, id_image, path]
+22:53:25,314 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000108: Foreign keys: []
+22:53:25,314 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000126: Indexes: [fkcba8e3c689256d03, id_image, primary]
+22:53:25,369 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000261: Table found: db_annonce.utilisateur
+22:53:25,369 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000037: Columns: [tele, prenom, mail, adress, id_utilisateur, type, nom, pass]
+22:53:25,385 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000108: Foreign keys: []
+22:53:25,385 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-13) HHH000126: Indexes: [mail_2, mail, id_utilisateur, primary]
+22:53:25,385 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-13) HHH000232: Schema update complete
+22:53:25,447 INFO  [org.jboss.as.jpa] (MSC service thread 1-11) JBAS011401: Read persistence.xml for UP_annonce
+22:53:25,503 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Tomcat6InjectionProvider:org.apache.catalina.util.DefaultAnnotationProcessor' for service type 'com.sun.faces.spi.injectionprovider'
+22:53:25,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015893: Encountered invalid class name 'com.sun.faces.vendor.Jetty6InjectionProvider:org.mortbay.jetty.plus.annotation.InjectionCollection' for service type 'com.sun.faces.spi.injectionprovider'
+22:53:25,570 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-15) JNDI bindings for session bean named annonce in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:app/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:module/annonce!com.univercity.remote.IAnnonceRemote
+	java:jboss/exported/ear/AnnonceEjb/annonce!com.univercity.remote.IAnnonceRemote
+	java:global/ear/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:app/AnnonceEjb/annonce!com.univercity.local.IAnnonceLocal
+	java:module/annonce!com.univercity.local.IAnnonceLocal
+
+22:53:25,586 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-15) JNDI bindings for session bean named utilisateur in deployment unit subdeployment "AnnonceEjb.jar" of deployment "ear.ear" are as follows:
+
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:app/AnnonceEjb/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:module/utilisateur!com.univercity.local.IUtilisateurLocal
+	java:global/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:app/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:module/utilisateur!com.univercity.remote.IUtilisateurRemot
+	java:jboss/exported/ear/AnnonceEjb/utilisateur!com.univercity.remote.IUtilisateurRemot
+
+22:53:26,101 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011402: Starting Persistence Unit Service 'ear.ear/AnnonceEjb.jar#UP_annonce'
+22:53:26,101 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-6) HHH000204: Processing PersistenceUnitInfo [
+	name: UP_annonce
+	...]
+22:53:26,163 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-6) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+22:53:26,195 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-6) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+22:53:26,195 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-6) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+22:53:26,195 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-6) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+22:53:26,195 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-6) HHH000397: Using ASTQueryTranslatorFactory
+22:53:26,335 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-6) HHH000228: Running hbm2ddl schema update
+22:53:26,335 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-6) HHH000102: Fetching database metadata
+22:53:26,382 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-6) HHH000396: Updating schema
+22:53:26,495 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.annonce
+22:53:26,499 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [idutilisateur, region, surface, prix, description, vondu, id_annonce, titre]
+22:53:26,499 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+22:53:26,499 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [fkcd33bfe289256d03, primary, id_annonce]
+22:53:26,532 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.image
+22:53:26,536 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [id_image, idannonce, path]
+22:53:26,536 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+22:53:26,536 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [id_image, fk5faa95bd4250c41, primary]
+22:53:26,560 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.imageuser
+22:53:26,560 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [idutilisateur, id_image, path]
+22:53:26,560 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+22:53:26,560 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [fkcba8e3c689256d03, id_image, primary]
+22:53:26,607 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000261: Table found: db_annonce.utilisateur
+22:53:26,607 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000037: Columns: [tele, prenom, mail, adress, id_utilisateur, type, nom, pass]
+22:53:26,607 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000108: Foreign keys: []
+22:53:26,607 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (MSC service thread 1-6) HHH000126: Indexes: [mail_2, mail, id_utilisateur, primary]
+22:53:26,623 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-6) HHH000232: Schema update complete
+22:53:26,735 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-6) The listener "com.sun.faces.config.ConfigureListener" is already configured for this context. The duplicate definition has been ignored.
+22:53:26,750 INFOS [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-6) Initialisation de Mojarra 2.1.7-jbossorg-1 (20120227-1401) pour le contexte «/annonceWeb»
+22:53:26,948 INFOS [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-12) Running on PrimeFaces 4.0
+22:53:26,954 INFO  [org.jboss.web] (MSC service thread 1-12) JBAS018210: Registering web context: /annonceWeb
+22:53:27,141 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "ear.ear" with deployment "ear.ear"
+22:53:41,882 INFOS [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-6) Running on PrimeFaces 4.0
+22:53:41,882 INFO  [org.jboss.web] (MSC service thread 1-6) JBAS018210: Registering web context: /annonceWeb
+22:53:42,029 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018565: Replaced deployment "ear.ear" with deployment "ear.ear"
