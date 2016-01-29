@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:t="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:rich="http://richfaces.org/rich">
+	
+	
+
+<h:head>
+	<link type="text/css" href="/annonceWeb/Vues/css/style.css"
+		rel="stylesheet" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="" />
+	<meta name="author" content="yyy" />
+
+	<title>Annonces</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="/annonceWeb/Vues/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/annonceWeb/Vues/css/style2.css" rel="stylesheet" />
+	<link href="/annonceWeb/Vues/css/style3.css" rel="stylesheet" />
+
+	<!-- Custom styles for this template -->
+	<link href="navbar.css" rel="stylesheet" />
+
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<!--[if lt IE 9]><script src="/GestionDossier/Vues/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<script src="/annonceWeb/Vues/js/ie-emulation-modes-warning.js"></script>
+	<script src="/annonceWeb/Vues/js/login.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+
+</h:head>
+<body>
+
+	<div class="container">
+		<h:form>
+			<!-- Static navbar -->
+			<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<h:button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+						aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</h:button>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><h:commandLink action="#{menuWeb.index()}"
+								value="Annonces" /></li>
+
+						<li><h:commandLink action="#{menuWeb.mesAnnonce()}"
+								value="Mes annonces" rendered="#{web.isConnexion()}" /></li>
+						<li><h:commandLink action="#{menuWeb.allUsers()}"
+								value="Utilisateurs" rendered="#{web.isConnexion()}" /></li>
+						<li><h:commandLink action="#{menuWeb.profil()}"
+								value="Profil" rendered="#{web.isConnexion()}" /></li>
+						<li><h:commandLink action="#{menuWeb.addAnnonce()}"
+								value="Add annonces" rendered="#{web.isConnexion()}" /></li>
+						<li><h:commandLink action="#{menuWeb.cnx()}"
+								value="Connexion" rendered="#{ !web.isConnexion()}" /></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><h:commandLink action="#{web.deconnecter()}"
+								rendered="#{web.isConnexion()}">
+								<h:graphicImage value="/Vues/images/deconecter.png" />
+							</h:commandLink></li>
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+			</nav>
+		</h:form>
+
+		<div class="jumbotron">
+			<div class="row">
+				<h:form id="form">
+					<div class="col-sm-8">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">Connection</h3>
+							</div>
+							<div class="panel-body">
+									<h:panelGrid columns="3">
+									<h:outputLabel value="Email :" />
+									<h:inputText id="email" value="#{web.userDto.email}"></h:inputText>
+									<h:message for="email" errorClass="errorMessage" /> 
+								
+								
+									<h:outputLabel value="Password :" />
+									<h:inputSecret id="password" value="#{web.userDto.pasword}"></h:inputSecret>
+									<h:message for="password" errorClass="errorMessage" /> 
+								
+								<h:message for="email" errorClass="err" warnClass="warn"></h:message>
+								<br /> <br />
+								</h:panelGrid>
+								<h:commandButton value="Valider" styleClass="btn btn-success"
+									action="#{web.connexion()}" />
+
+								<h:commandButton value="Inscription" action="#{menuWeb.addUser()}" styleClass="btn btn-primer" />
+							
+							<h:messages styleClass="errorMessage" globalOnly="true" /> 
+					
+						
+					</div>
+					
+					</div>
+					</div>
+				</h:form>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+</body>
+</html>
